@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SematecSaturdays</string>
+    <string name="enter_your_name">لطفا اسم خود را وارد نمایید</string>
+    <string name="welcome">Welcome !</string>
+</resources>

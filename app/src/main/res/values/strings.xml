@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">SematecSaturdays</string>
+    <string name="enter_your_name">Please enter your surname</string>
+    <string name="welcome">Welcome !</string>
+    <string name="ok">ok</string>
+    <string name="please_enter_your_name">please enter your name</string>
+    <string name="open_setting">Open setting</string>
+    <string name="save_setting">Save setting</string>
+    <string name="open_page">Open page</string>
 </resources>

@@ -10,7 +10,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //defining activities layout
         setContentView(R.layout.activity_main);
+
 
 
         Log.d("MYAPPSTAG","onCreate Called");
