@@ -19,6 +19,9 @@ android {
 }
 
 dependencies {
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+    implementation 'com.google.code.gson:gson:2.8.5'
+
     implementation 'com.github.SirLordPouya:AndroidAppUpdater:2.0.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.1.0-alpha02'

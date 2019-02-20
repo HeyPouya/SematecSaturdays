@@ -3,6 +3,7 @@
     package="ir.sematec.saturdays">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -11,18 +12,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TestHttpURLConnectionActivity">
+        <activity android:name=".TestSQLActivity"></activity>
+        <activity
+            android:name=".TestDialogActivity"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".TestAlertDialogActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".TestThreadActivity">
-        </activity>
-        <activity android:name=".TestDrawerActivity"></activity>
+        <activity android:name=".TestHandlerActivity" />
+        <activity android:name=".TestMenuActiviy" />
+        <activity android:name=".TestPermissionActivity" />
+        <activity android:name=".TestAsyncClientActivity" />
+        <activity android:name=".TestHttpURLConnectionActivity" />
+        <activity android:name=".TestThreadActivity" />
+        <activity android:name=".TestDrawerActivity" />
         <activity android:name=".TestWebViewActivity" />
         <activity android:name=".TestRecyclerActivity" />
         <activity android:name=".TestImplicitIntentActivity" />
@@ -32,6 +40,12 @@
         <activity android:name=".ThirdActivity" />
         <activity android:name=".SecondActivity" />
         <activity android:name=".MainActivity" />
+
+        <receiver android:name=".TestBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
